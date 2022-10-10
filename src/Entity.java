@@ -10,7 +10,7 @@ public class Entity {
     private int mathX;
     private int mathY;
     private int moveSpeed;
-    public static int IMAGE_INDEX; 
+    public static int[] IMAGE_INDEXs; 
 
     Entity(int x,int y){
         this.x=x;
